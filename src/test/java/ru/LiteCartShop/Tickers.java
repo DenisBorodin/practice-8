@@ -18,7 +18,6 @@ public class Tickers {
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
 
-        driver.manage().window().maximize();
         driver.get("http://localhost/litecart/admin/");
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
