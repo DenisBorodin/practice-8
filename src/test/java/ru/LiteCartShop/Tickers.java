@@ -32,5 +32,7 @@ public class Tickers {
         for(WebElement element : ducks) {
             System.out.println(element.findElement(By.className("name")).getText() + " have sticker " + element.findElement(By.cssSelector(".sticker")).getText());
         }
+        driver.quit();
+        driver = null;
     }
 }
