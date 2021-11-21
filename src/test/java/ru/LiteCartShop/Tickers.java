@@ -12,7 +12,6 @@ import java.util.List;
 public class Tickers {
     private WebDriver driver;
     private WebDriverWait wait;
-    private int i;
 
     @Test
     public void tickers() {
